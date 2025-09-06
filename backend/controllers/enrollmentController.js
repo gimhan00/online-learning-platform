@@ -45,7 +45,7 @@ const getEnrolledCourses = async (req, res) => {
     const user = await User.findById(req.user._id).populate({
       path: 'enrolledCourses',
       model: 'Course',
-      select: 'title description content', // Explicitly include content
+      select: 'title description content', 
     });
     if (!user) {
       return res.status(404).json({ message: 'User not found' });
