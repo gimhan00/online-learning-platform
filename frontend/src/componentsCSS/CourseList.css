@@ -1,0 +1,96 @@
+
+.list-container {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.list-container h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #444;
+}
+
+.list-container > div {
+  background: #fff;
+  border-radius: 14px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.list-container > div:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+}
+
+
+.list-container h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+
+.list-container p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+
+.btn-enroll{
+  margin-right: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+  border-radius: 7px;
+  background-color: cornflowerblue;
+}
+
+.unenroll-button{
+  margin-right: 10px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+  border-radius: 7px;
+  background-color:coral;
+}
+
+.edit-button, .delete-button {
+  margin-right: 10px;
+  padding: 5px 20px;
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+  border-radius: 7px;
+}
+.edit-button {
+  background-color: #4CAF50; 
+  color: white;
+}
+.delete-button {
+  background-color: #f44336; 
+  color: white;
+}
+
+.course-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.course-content {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-left: 4px solid #4CAF50;
+}
