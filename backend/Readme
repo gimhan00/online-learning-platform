@@ -1,0 +1,7 @@
+MONGO_URI=mongodb+srv://Gimhan:Gimhan99@cluster0.iyfdabf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+JWT_SECRET=31091b8bf18f9a61bfd8fbc4ac14a0d9c7aeeb0afddc91749188300d6a95162e
+OPENAI_API_KEY=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
+PORT=5000
+
+
+add these to .env file
